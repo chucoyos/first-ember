@@ -44,7 +44,8 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/first-ember/';
+    ENV.rootURL = '/first-ember';
+    ENV.locationType = 'hash';
     // here you can enable a production-specific feature
   }
 
