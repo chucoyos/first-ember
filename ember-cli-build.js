@@ -7,6 +7,7 @@ module.exports = function (defaults) {
     sassOptions: {
       extension: 'scss',
     },
+    
     // Add options here
   });
 
